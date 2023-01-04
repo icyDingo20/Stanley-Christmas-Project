@@ -56,7 +56,7 @@ public class App {
         do{
             System.out.println(Colors.ANSI_BLUE);
             System.out.println("Would you like to add any more children to the list?");
-            System.out.println("If yes, enter new data for children.");
+            System.out.println("If yes, type yes, then enter new data for children.");
             System.out.println("If no, type no to exit the program");
             yesNo = in.nextLine().toUpperCase();
             System.out.println(Colors.ANSI_RESET);
@@ -67,10 +67,10 @@ public class App {
                 break;
             }
             // If yes, it continues the loop
-            if(yesNo.equals("YES")) {
+            else if(yesNo.equals("YES")) {
 
             
-            System.out.println("Enter a list");
+                System.out.println("Enter a list");
                 // Please enter a list
                 newEntry = in.nextLine().toUpperCase().split(",");
             
@@ -90,7 +90,7 @@ public class App {
                     }
                         break;
                     }
-
+                    
                 }
                 // Printing the new array out after the new child is added
                 printArray(naughtyNiceList);

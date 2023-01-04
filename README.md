@@ -23,5 +23,8 @@
    - If no, exit the loop
    - If yes, run the loop again
 4. Find an empty line in the array for the new child to go into
-5. Change the child's gift to coal if naughty
-6. Print the new array 
+   - Enter new data for a new child
+   - Split row by column
+   - Keep the color pattern
+   - Change the child's gift to coal if naughty
+5. Print the new array 
