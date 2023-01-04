@@ -63,14 +63,15 @@ public class App {
 
             // If no, it exits the loop
             if(yesNo.equals("NO")) {
-                System.out.println("Peace out.");
+                System.out.println(Colors.ANSI_CYAN);
+                System.out.println("Peace out");
                 break;
             }
             // If yes, it continues the loop
             else if(yesNo.equals("YES")) {
 
             
-                System.out.println("Enter a list");
+                System.out.println("Enter data for a new child");
                 // Please enter a list
                 newEntry = in.nextLine().toUpperCase().split(",");
             
